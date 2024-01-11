@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eigenform</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="app">
+        <header>
+          <h1>EIGENFORM</h1>
+        </header>
+        <div class="eigenform" v-if="currentQuestion !== null">
+            <h2>{{ questions[currentQuestion].text }}</h2>
+            <div class="card"
+             v-bind:class="{ 'swipe-left': isSwipeLeft, 'swipe-right': isSwipeRight }"
+             @mousedown="handleTouchStart"
+             @touchstart="handleTouchStart"
+             @mousemove="handleTouchMove"
+             @touchmove="handleTouchMove"
+             @mouseup="handleTouchEnd"
+             @touchend="handleTouchEnd">
+            <h3>Swipe left for No</h3>
+            <h3>Swipe right for Yes</h3>
+            </div>
+          </div>
+          <div class="eigenform" v-else>
+            <h2>Thank You very much for your Participation!</h2>
+            <h3>Now I need you to fill in some Personal Information for our Calculations</h3>
+            <label for="age" id="label-age">Age</label>
+            <input type="text" v-model="age" placeholder="Enter your Age" required/>
+            <div class="divider"></div>
+            <label for="height" id="label-height">Height in cm</label>
+            <input type="text" v-model="height" placeholder="Enter your Height" />
+            <button v-on:click="saveOnDatabase">SUBMIT</button>
+            <p>Total Score: {{ score }}</p>
+          </div>
+    </div>
+
+    
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
