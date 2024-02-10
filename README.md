@@ -1,11 +1,9 @@
-# Welcome to the Project Eigenform
+# Project Eigenform
 ## *Better understand your self-perception*
 
 The project "Eigenform"  from [Coding IxD](https://codingixd.mi.fu-berlin.de/expandingthebody/) explored the quantitative and qualitative aspects of body self-image people encounter.
 
 ## Table of Contents
-[Project Description](https://github.com/tim-simm/Coding-IxD/blob/main/README.md#project-description)
-
 [Project Description](https://github.com/tim-simm/Coding-IxD/blob/main/README.md#project-description)
 
 [Installation](https://github.com/tim-simm/Coding-IxD/blob/main/README.md#installation)
