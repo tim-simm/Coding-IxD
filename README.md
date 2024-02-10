@@ -44,7 +44,7 @@ We worked with the Vue.js library for the interaction. The database queries with
 If you want to check it out: [Eigenform](https://lamit03.userpage.fu-berlin.de/Scale/)
 
 ### Arduino
-We controlled the movement of three individual rings using stepper motors. To control these motors, we relied on the Arduino ESP32-feather model from Adafruit Huzzah. This model was suitable for our purpose because it allowed us to connect to WiFi and retrieve the data we needed from the database. For more precise control of the motors, we also used a4988 stepper motor driver chips.
+We controlled the movement of three individual rings using stepper motors. To control these motors, we relied on the Arduino ESP32-feather model from Adafruit Huzzah. This model was suitable for our purpose because it allowed us to connect to WiFi and retrieve the data we collected with the questionnaire from the database. For more precise control of the motors, we also used a4988 stepper motor driver chips.
 
 The code has been written with the Arduino IDE. Therefore, it consists of a setup() function and a loop() function. 
 During the setup, we initialize the rings to their most retracted position by iterating through them and moving them by reading a separately installed button. Additionally, we fetch the most recent entry of the database to compare it against new entries. 
