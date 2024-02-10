@@ -27,8 +27,8 @@ We created a website for the interaction and the questionnaire. This website gui
 At the beginning, a counter runs down, with which the interaction begins. The user stands on a scale and is weighed.
 This is followed by explanations and an example of how the questionnaire is structured. 
 
-The main interaction is the questionnaire. We have come up with a special design for the questionnaire, which is widely used and interesting. The questionnaire consists of yes/no questions and is answered by swiping to the left or right. 
-In addition to the questions, the user has to indicate his age and height.
+The main interaction is the questionnaire. We have made the questionnaire more interesting by including a widely used interaction design. The questionnaire consists of yes/no questions and is answered by swiping left or right. 
+In addition to the questions, the user is required to provide their age and height.
 
   ![RPReplay_Final1707562552](https://github.com/tim-simm/Coding-IxD/assets/130285233/16bf6c2d-0d8c-413c-8607-783db7277917)
 
@@ -54,8 +54,23 @@ The main loop consists of several functions. In the beginning, we keep reading t
 To reset the interaction, the rings return to their default position once the user steps off the scales. 
 
 ## Installation
+Excluding the actual material and mechanics of the rings, we used the following material:
+* Arduino ESP32-feather by Adafruit Huzzah (other models also possible)
+* 3 Stepper motors
+* 3 a4988 stepper motor drivers
+* A separate 12V power supply
+* A scale, connected to a HX711
+* A breadboard
+* Cables to connect the hardware
+
+Connect the driver and stepper pins of the a4988 directly to the GPIO pins of the Arduino. Put the a4988 drivers into 1/16 microstep mode, by connecting the MS pins to the 3V (3.3V) pin of the Arduino. When connecting the stepper motors to the driver chips, the spin direction of the motors is influenced by the order in which the pins are connected. Connect the DT and SCK Pin of the HX711 to the GPIO pins on the Arduino. Power the HX711 with 3V. The motors are powered through a separate circuit, holding 12V. Connect the power supply to the appropriate Pins on the a4988. 
 
 ## Usage
+* Step on the scales
+* Answer the questionnaire
+* Observe your Eigenform
+* Read your take-away
+* Step off the scales 
 
 ## Acknowledgments
 *Our team consists of four computer science students and one product design student.*
