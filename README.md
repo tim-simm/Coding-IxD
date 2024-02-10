@@ -16,7 +16,7 @@ The project "Eigenform"  from [Coding IxD](https://codingixd.mi.fu-berlin.de/exp
 
 ## Project Description
 ### General Information
-Every day, we come across the 'ideal’ body, for example, on social media. However, the focus of such media tends to centre around the perfect shape and form of bodies. Despite this emphasis, these idealized body images might fail to capture the diversity of our people's sentiments. As a result, they contribute to a skewed self-perception based on universalized or generalized human bodies.
+Every day, we come across the 'ideal' body, especially in the age of social media. The focus of such media tends to center around the perfect shape and form of bodies. Despite this emphasis, these idealized body images might fail to capture the diversity of people's bodies and sentiments. As a result, they contribute to a skewed self-perception based on universalized or generalized human bodies.
 
 Motivated by this observation, Eigenform challenges conventional notions of self-perception by translating numeric values and emotional well-being into tangible forms. Rather than presenting precise values, the Eigenform object embodies tendencies without assigning judgments. It incorporates a carefully designed kinematic mechanism, physicalized in three individually expandable and contractible rings. Every user receives a unique representation of their body data, collected by a scale and our questionnaire. The rings' expansion and contraction metaphorically illustrate the potential gap between numerical data (like a weight on a scale) and people's body perception.
 
