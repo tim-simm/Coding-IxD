@@ -7,8 +7,8 @@ The project "Eigenform"  from [Coding IxD](https://codingixd.mi.fu-berlin.de/exp
 
 ### [Project Description](https://github.com/tim-simm/Coding-IxD/blob/main/README.md#project-description)
 #### [General Information](https://github.com/tim-simm/Coding-IxD/blob/main/README.md#general-information)
-#### [Website] (https://github.com/tim-simm/Coding-IxD/blob/main/README.md#website)
-#### [Arduino] (https://github.com/tim-simm/Coding-IxD/blob/main/README.md#arduino)
+#### [Website](https://github.com/tim-simm/Coding-IxD/blob/main/README.md#website)
+#### [Arduino](https://github.com/tim-simm/Coding-IxD/blob/main/README.md#arduino)
 
 ### [Installation](https://github.com/tim-simm/Coding-IxD/blob/main/README.md#installation)
 
