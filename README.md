@@ -4,15 +4,16 @@
 The project "Eigenform"  from [Coding IxD](https://codingixd.mi.fu-berlin.de/expandingthebody/) explored the quantitative and qualitative aspects of body self-image people encounter.
 
 ## Table of Contents
-[Project Description](https://github.com/tim-simm/Coding-IxD/blob/main/README.md#project-description)
 
-[Installation](https://github.com/tim-simm/Coding-IxD/blob/main/README.md#installation)
+### [Project Description](https://github.com/tim-simm/Coding-IxD/blob/main/README.md#project-description)
 
-[Usage](https://github.com/tim-simm/Coding-IxD/blob/main/README.md#usage)
+### [Installation](https://github.com/tim-simm/Coding-IxD/blob/main/README.md#installation)
 
-[Acknowledgments](https://github.com/tim-simm/Coding-IxD/blob/main/README.md#acknowledgments)
+### [Usage](https://github.com/tim-simm/Coding-IxD/blob/main/README.md#usage)
 
-[License](https://github.com/tim-simm/Coding-IxD/blob/main/README.md#license)
+### [Acknowledgments](https://github.com/tim-simm/Coding-IxD/blob/main/README.md#acknowledgments)
+
+### [License](https://github.com/tim-simm/Coding-IxD/blob/main/README.md#license)
 
 ## Project Description
 ### General Information
