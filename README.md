@@ -5,15 +5,15 @@ The project "Eigenform"  from [Coding IxD](https://codingixd.mi.fu-berlin.de/exp
 
 ## Table of Contents
 
-### [Project Description](https://github.com/tim-simm/Coding-IxD/blob/main/README.md#project-description)
+[Project Description](https://github.com/tim-simm/Coding-IxD/blob/main/README.md#project-description)
 
-### [Installation](https://github.com/tim-simm/Coding-IxD/blob/main/README.md#installation)
+[Installation](https://github.com/tim-simm/Coding-IxD/blob/main/README.md#installation)
 
-### [Usage](https://github.com/tim-simm/Coding-IxD/blob/main/README.md#usage)
+[Usage](https://github.com/tim-simm/Coding-IxD/blob/main/README.md#usage)
 
-### [Acknowledgments](https://github.com/tim-simm/Coding-IxD/blob/main/README.md#acknowledgments)
+[Acknowledgments](https://github.com/tim-simm/Coding-IxD/blob/main/README.md#acknowledgments)
 
-### [License](https://github.com/tim-simm/Coding-IxD/blob/main/README.md#license)
+[License](https://github.com/tim-simm/Coding-IxD/blob/main/README.md#license)
 
 ## Project Description
 ### General Information
