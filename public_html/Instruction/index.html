@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible"
+          content="IE=edge">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>
+        Eigenform
+    </title>
+</head>
+  
+<body>
+    <div id="app">
+        <header>
+            <h1>EIGENFORM</h1>
+        </header>
+        <div class="instruction">
+            <h1>How does it work</h1>
+        </div>
+        <div class="eigenform">
+            <p>The question will appear on a card.</p>
+            <p>The questionnaire consists of Yes No questions.</p>
+            <p>You can answer the question with <b>Yes</b> by swiping to the right.</p>
+            <p>You can answer the question with <b>No</b> by swiping to the left.</p>
+        </div>
+        <h3>Here's a small example</h3>
+        <div class="card">
+            <p style="margin-bottom: 0px;"">Do you like the color blue?</p>
+            <P class="same">No</P>
+            <p class="same">Yes</p>
+            <img src="1444-swipe-left-right.gif">
+        </div>
+        <h3>Ready?</h3>
+        <button  id="Link">Let's Go!</button>
+    </div>
+
+<script>
+      document.getElementById("Link").addEventListener("click", function() {
+          window.location.href = "https://lamit03.userpage.fu-berlin.de/Questionnaire/";
+          });
+   </script>
+  
+</body>
+</html>

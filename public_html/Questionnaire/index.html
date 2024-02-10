@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eigenform</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+      <h1>EIGENFORM</h1>
+    </header>
+    <div class="container" id="app">
+       <div class="eigenform" v-if="pageCounter === 0">
+            <h2>Question: {{questions[currentQuestion].id}} of {{totalQuestions}}</h2>
+            <h4>{{answer}}</h4>
+            <div class="card"
+             v-bind:class="{ 'swipe-left': isSwipeLeft, 'swipe-right': isSwipeRight }"
+             @mousedown="handleTouchStart"
+             @touchstart="handleTouchStart"
+             @mousemove="handleTouchMove"
+             @touchmove="handleTouchMove"
+             @mouseup="handleTouchEnd"
+             @touchend="handleTouchEnd">
+            <h2>{{ questions[currentQuestion].text }}</h2>
+            </div>
+            <h3>Swipe left for "No" and right for "Yes"</h3>
+          </div>
+          <div class="eigenform" v-if="pageCounter === 1">
+            <h3 style="margin-top: 0px; font-size:28px">Thank you very much!</h3>
+            <h3 style="margin-top: 20px; margin-bottom:50px;">Now you need to enter your age and height for our calculations</h3>
+            <label for="age" id="label-age">Age</label>
+            <input type="text" pattern="[0-9]*" v-model="age" placeholder="Enter your Age" required/>
+            <label for="height" id="label-height">Height in cm</label>
+            <input type="text" pattern="[0-9]*" v-model="height" placeholder="Enter your Height" />
+            <button v-on:click="loadData">SUBMIT</button>
+            <h3 style="text-align: left; font-size:12px; opacity: 0.8; margin-bottom: 15px;">We will use your personal data only for the purposes stated at the time when such data is collected</h3>
+          </div>
+          <div class="loading" v-if="pageCounter === 2">
+            <div style="text-align: center; font-size: 130%; font-weight: bold;">Take a look at your Eigenform!<br>Your Eigenform is different from all other Eigenforms,<br>but the functionality of each Eigenform will always be the same</div>
+            <div class="square-circle-1"></div>
+            <div class="square-circle-2"></div>
+            <div class="square-circle-3"></div>
+            <div class="square-circle-4"></div>
+            <div class="square-circle-5"></div>
+            <div class="square-circle-8"></div>
+            <div class="container3">
+              <button class="button3" v-on:click="showAdvice">Turn to Advice</button>
+            </div>
+          </div>
+          <div class="eigenform" v-if="pageCounter === 3">
+            <h3>After analysing the answers, your body image is<br></h3>
+            <p>{{persona}}</p>
+            <form style="margin-bottom: 5px;">{{personaText}}</form>
+            <h3 style="margin-top: 0px; margin-bottom: 5px; margin-left:50px; text-align:left;"><u>Advice</u></h3>
+            <div id="sectionAdvice" style="margin-left: 50px; margin-right: 50px; font-size:22px; font-weight:bold; opacity: 0.9;">{{personaAdvice}}</div>
+            <button style="margin-left: 440px; font-size:12px; padding: 1px 1px; margin-bottom: 1px; margin-right: 1px; opacity: 0.5;" v-on:click="reset">Reset the Application</button>
+          </div>
+        </div>
+    
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
