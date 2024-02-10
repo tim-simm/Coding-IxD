@@ -30,7 +30,7 @@ The results are stored in an SQL database.
 
 We worked with the Vue.js library for the interaction. The database queries with PHP, HTML for the pages and CSS for the style. The web application runs on a web server provided by the FU-Berlin, but it is also possible on every other server.
 
-If you want to check it out: https://lamit03.userpage.fu-berlin.de/Scale/
+If you want to check it out: [Eigenform](https://lamit03.userpage.fu-berlin.de/Scale/)
 
 ### ESP? Object? ~mir fällt kein guter name ein xD
 
