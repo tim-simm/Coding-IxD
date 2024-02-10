@@ -1,7 +1,7 @@
 # Welcome to the Project Eigenform
 ## *Better understand your self-perception*
 
-The project "Eigenform"  from Coding IxD explored the quantitative and qualitative aspects of body self-image people encounter.
+The project "Eigenform"  from [Coding IxD](https://codingixd.mi.fu-berlin.de/expandingthebody/) explored the quantitative and qualitative aspects of body self-image people encounter.
 
 ## Project Description
 ### General Information
