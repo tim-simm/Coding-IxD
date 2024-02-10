@@ -3,6 +3,9 @@
 
 The project "Eigenform"  from [Coding IxD](https://codingixd.mi.fu-berlin.de/expandingthebody/) explored the quantitative and qualitative aspects of body self-image people encounter.
 
+## Table of Contents
+
+
 ## Project Description
 ### General Information
 Every day, we come across the 'ideal’ body, for example, on social media. However, the focus of such media tends to centre around the perfect shape and form of bodies. Despite this emphasis, these idealized body images might fail to capture the diversity of our people's sentiments. As a result, they contribute to a skewed self-perception based on universalized or generalized human bodies.
