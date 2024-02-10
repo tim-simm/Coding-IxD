@@ -47,3 +47,4 @@ Tim Lamich - Computer Science
 Gustav Israel - Product Design 
 
 ## License
+[License](https://github.com/tim-simm/Coding-IxD/blob/main/LICENSE)
