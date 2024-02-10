@@ -39,5 +39,11 @@ If you want to check it out: [Eigenform](https://lamit03.userpage.fu-berlin.de/S
 ## Usage
 
 ## Acknowledgments
+Our team consists of four computer science students and one product design student.
+Moritz Zitzow - Computer Science
+Teoman Köse - Computer Science
+Maarten Linnert - Computer Science
+Tim Lamich - Computer Science 
+Gustav Israel - Product Design 
 
 ## License
