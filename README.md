@@ -24,7 +24,7 @@ Eigenform serves as a medium for discussion to provoke reflection by teasing soc
 
 ### Website
 We created a website for the interaction and the questionnaire. This website guides the user through our project. The website has the following structure: 
-At the beginning, a counter runs down, with which the interaction begins. The users stand on a scale and are weighed.
+At the beginning, a counter runs down, with which the interaction begins. The user stands on a scale and is weighed.
 This is followed by explanations and an example of how the questionnaire is structured. 
 
 The main interaction is the questionnaire. We have come up with a special design for the questionnaire, which is widely used and interesting. The questionnaire consists of yes/no questions and is answered by swiping to the left or right. 
@@ -43,7 +43,15 @@ We worked with the Vue.js library for the interaction. The database queries with
 
 If you want to check it out: [Eigenform](https://lamit03.userpage.fu-berlin.de/Scale/)
 
-### ESP? Object? ~mir fällt kein guter name ein xD
+### Arduino
+We controlled the movement of three individual rings using stepper motors. To control these motors, we relied on the Arduino ESP32-feather model from Adafruit Huzzah. This model was suitable for our purpose because it allowed us to connect to WiFi and retrieve the data we needed from the database. For more precise control of the motors, we also used a4988 stepper motor driver chips.
+
+The code has been written with the Arduino IDE. Therefore, it consists of a setup() function and a loop() function. 
+During the setup, we initialize the rings to their most retracted position by iterating through them and moving them by reading a separately installed button. Additionally, we fetch the most recent entry of the database to compare it against new entries. 
+
+The main loop consists of several functions. In the beginning, we keep reading the scale value until we measure a certain threshold. Then, we read the value over 10 seconds and determine the weight, by calculating the average value. We then keep pulling the newest entry from the database, until it differs from the old entry, indicating that a user has filled out the questionnaire. Based on the calculated body image and the calculated BMI we assign one of nine individual Eigenform values to the user and move the rings accordingly. 
+
+To reset the interaction, the rings return to their default position once the user steps off the scales. 
 
 ## Installation
 
