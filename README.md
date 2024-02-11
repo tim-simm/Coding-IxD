@@ -69,11 +69,34 @@ Excluding the actual material and mechanics of the rings, we used the following 
 
 Connect the driver and stepper pins of the a4988 directly to the GPIO pins of the Arduino. Put the a4988 drivers into 1/16 microstep mode, by connecting the MS pins to the 3V (3.3V) pin of the Arduino. When connecting the stepper motors to the driver chips, the spin direction of the motors is influenced by the order in which the pins are connected. Connect the DT and SCK Pin of the HX711 to the GPIO pins on the Arduino. Power the HX711 with 3V. The motors are powered through a separate circuit, holding 12V. Connect the power supply to the appropriate Pins on the a4988. 
 
+The web application requires a web server on which the HTML, CSS and PHP scripts can be loaded. Otherwise, you can run it on your localhost. 
+
+Vue.js is integrated into the index.html from a CDN (Content Delivery Network) via a script tag: 
+
+        <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+
+The database must be created with an SQL command so that three columns Age, Height, Result are generated
+
+        CREATE DATABASE my_database;
+        
+        USE my_database;
+        
+        CREATE TABLE bsiq_table (
+            id INT AUTO_INCREMENT PRIMARY KEY,
+            age INT,
+            height INT, 
+            result INT
+        );
+
+The PHP script for the database must be adapted accordingly. 
+
+Now you can execute the questionnaire and everything necessary will be saved in the database
+
 ## Usage
 * Step on the scales
 * Answer the questionnaire
 * Observe your Eigenform
-* Read your take-away
+* Read your takeaway
 * Step off the scales 
 
 ## Acknowledgments
