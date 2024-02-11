@@ -97,7 +97,7 @@ The PHP script for the database must be adapted accordingly.
 Now you can execute the questionnaire and everything necessary will be saved in the database
 
 ## Usage
-To run our Project, you need to set up the web application and the stepper motors. Then you have to follow the Steps:
+To run our Project, you need to set up the web application and the stepper motors. Then you have to follow these Steps:
 
 * Step on the scales
 * Answer the questionnaire
