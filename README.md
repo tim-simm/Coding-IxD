@@ -11,6 +11,8 @@ The project "Eigenform"  from [Coding IxD](https://codingixd.mi.fu-berlin.de/exp
 * [Arduino](https://github.com/tim-simm/Coding-IxD/blob/main/README.md#arduino)
 
 [Installation](https://github.com/tim-simm/Coding-IxD/blob/main/README.md#installation)
+* [Hardware](https://github.com/tim-simm/Coding-IxD/blob/main/README.md#hardware)
+* [Software](https://github.com/tim-simm/Coding-IxD/blob/main/README.md#software)
 
 [Usage](https://github.com/tim-simm/Coding-IxD/blob/main/README.md#usage)
 
@@ -58,6 +60,7 @@ The main loop consists of several functions. In the beginning, we keep reading t
 To reset the interaction, the rings return to their default position once the user steps off the scales. 
 
 ## Installation
+### Hardware
 Excluding the actual material and mechanics of the rings, we used the following material:
 * Arduino ESP32-feather by Adafruit Huzzah (other models also possible)
 * 3 Stepper motors
@@ -69,6 +72,7 @@ Excluding the actual material and mechanics of the rings, we used the following 
 
 Connect the driver and stepper pins of the a4988 directly to the GPIO pins of the Arduino. Put the a4988 drivers into 1/16 microstep mode, by connecting the MS pins to the 3V (3.3V) pin of the Arduino. When connecting the stepper motors to the driver chips, the spin direction of the motors is influenced by the order in which the pins are connected. Connect the DT and SCK Pin of the HX711 to the GPIO pins on the Arduino. Power the HX711 with 3V. The motors are powered through a separate circuit, holding 12V. Connect the power supply to the appropriate Pins on the a4988. 
 
+### Software
 The web application requires a web server on which the HTML, CSS and PHP scripts can be loaded. Otherwise, you can run it on your localhost. 
 
 Vue.js is integrated into the index.html from a CDN (Content Delivery Network) via a script tag: 
