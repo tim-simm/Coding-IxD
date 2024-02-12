@@ -16,7 +16,7 @@ const COLOR_CODES = {
   }
 };
 
-const TIME_LIMIT = 10;
+const TIME_LIMIT = 5;
 let timePassed = 0;
 let timeLeft = TIME_LIMIT;
 let timerInterval = null;
@@ -82,7 +82,7 @@ function formatTime(time) {
     onTimesUp();
     setTimeout(function(){
       window.location.href = "https://lamit03.userpage.fu-berlin.de/Welcome/";
-      }, 300);
+      }, 150);
   }
 
   return `${minutes}:${seconds}`;
