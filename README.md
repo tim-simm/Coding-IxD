@@ -108,13 +108,13 @@ To run our Project, you need to set up the web application and the stepper motor
 ## Acknowledgments
 *Our team consists of four computer science students and one product design student.*
 
-Moritz Zitzow - Computer Science
+Moritz Zitzow [Github](https://github.com/Moritzz00) - Computer Science
 
-Teoman Köse - Computer Science
+Teoman Köse [Github](https://github.com/Teomen77) - Computer Science
 
 Maarten Linnert - Computer Science
 
-Tim Lamich - Computer Science 
+Tim Lamich [Github](https://github.com/tim-simm) - Computer Science 
 
 Gustav Israel - Product Design 
 
